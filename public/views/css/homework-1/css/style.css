@@ -1,5 +1,41 @@
-body {
-  background-color: indigo;
-  color: #fff;
-  font-size: 40px;
+html {
+  font-size: 16px;
 }
+
+table {
+  width: 100%;
+}
+td {
+  padding: 16px;
+}
+h1 {
+  font-size: 8em;
+}
+h2 {
+  font-size: 6rem;
+}
+h3 {
+  font-size: 80px;
+}
+h4 {
+  font-size: 400%;
+}
+h5 {
+  font-size: 3vw;
+}
+h6 {
+  font-size: 4vh;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+td:first-letter {
+  color: red;
+  font-weight: bold;
+}
+tr:nth-child(2n-1) td:nth-child(n+5) {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
