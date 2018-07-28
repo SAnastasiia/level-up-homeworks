@@ -1,0 +1,147 @@
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  color: #444;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+header {
+  background-color: #3F51B5;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: #3F51B5;
+  color: #fff;
+  text-align:center;
+}
+.content{
+  font-size: 67px;
+}
+
+/* Your styles go below */
+body{
+  width: 1000px;
+}
+.content{
+  padding: 15px;
+}
+.link {
+  float:left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.autorisation{
+  float:right;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size:45px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.img1,.img2,.img3{
+    float: left;
+    padding: 20px 45px;
+    box-sizing: border-box;
+}
+.img4,.img5,.img6{
+    float: left;
+    padding: 20px 45px;
+    box-sizing: border-box;
+}
+.img1,.img3{
+  border: 1px solid grey;
+}
+.img2{
+  border-top:1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.img4{
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.img5{
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.img6{
+  border-bottom:1px solid grey;
+  border-right: 1px solid grey;
+}
+.details{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin: 15px;
+  box-sizing: border-box;
+}
+.text{
+  text-indent: 1.5em;
+  text-align: justify;
+  box-sizing: border-box;
+  margin: 15px;
+}
+.about{
+  font-size: 20px;
+}
+.subscribe{
+  width: 500px;
+  font-size:18px;
+}
+.email{
+  width: 500px;
+}
+label{
+  margin: 15px;
+}
+input{
+  border: 4px solid grey;
+  box-sizing: border-box;
+  margin: 15px;
+  width: 250px;
+  float:left;
+}
+input:focus { 
+    border-color: red;
+    box-sizing: border-box;
+}
+button{
+    float:right;
+    box-sizing: border-box;
+    border:1px solid grey;
+}
+footer{
+  text-align:center;
+  box-sizing: border-box;
+}
+div.text{
+  font-size: 16px;
+  box-sizing: border-box;
+}
