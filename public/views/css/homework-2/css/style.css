@@ -42,87 +42,62 @@ footer {
 }
 
 /* Your styles go below */
-body{
-  width: 1000px;
+* {
+  box-sizing: border-box;
 }
-.content{
+.content {
+  padding: 15px;
+}
+.navigation {
+  height: 46px;
   padding: 15px;
 }
 .link {
-  float:left;
-  padding: 15px;
-  box-sizing: border-box;
+  position: absolute;
 }
-.autorisation{
-  float:right;
-  padding: 15px;
-  box-sizing: border-box;
+.autorisation {
+  position: absolute;
+  right: 0;
+  padding-right: 15px;
 }
-.h1 {
+h1 {
   margin-top: 25px;
   margin-bottom: 45px;
   font-size:45px;
   font-weight: bold;
-  box-sizing: border-box;
 }
-.img-row {
-  height: 300px;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+td {
+  border: 1px solid grey;
+  padding: 20px 40px 10px 40px;
 }
-.img-row:first-child {
-  border-top: 1px solid grey;
-}
-.img-col {
-  float: left;
-  height: 300px;
-  padding: 35px 48px;
-  box-sizing: border-box;
-}
-.img-col:first-child {
-  border-right: 1px solid grey;
-}
-.img-col:last-child {
-  border-left: 1px solid grey;
-}
-.about{
+h2 {
   font-size: 20px;
   font-weight: bold;
   margin: 40px 0 0 0;
 }
-.text{
+.text {
   text-indent: 1.5em;
   text-align: justify;
-  box-sizing: border-box;
   padding: 40px 40px 40px 0;
   font-size: 16px;
   box-sizing: border-box;
 }
-.subscribe{
+.subscribe {
   width: 500px;
-  font-size:18px;
+  font-size: 18px;
   margin: 0 -15px;
 }
-.email{
-  width: 500px;
-}
-label{
+label {
   margin: 15px;
   font-weight: bold;
 }
-input{
+input {
   border: 1px solid grey;
-  box-sizing: border-box;
   margin: 15px;
-  width: 225px;
-  float:left;
   padding: 5px;
   font-size: 14px;
 }
-button{
-  float: right;
-  box-sizing: border-box;
+button {
   border: 1px solid grey;
   padding: 6px;
   margin-top: 15px;
@@ -131,12 +106,11 @@ button{
   font-size: 14px;
   font-weight: bold;
 }
-button:hover{
+button:hover {
   border-color: red;
 }
-footer{
-  text-align:center;
-  box-sizing: border-box;
-  content:"&#169";
+footer {
+  text-align: center;
+  content: "&#169";
   padding: 20px;
 }
