@@ -1,0 +1,47 @@
+.container {
+  margin: 25px 50px;;
+  height: 300px;
+  width: 300px;
+}
+.box {
+  margin: 0 5px 5px 0;
+  float: left;
+}
+.square {
+  width: 70px;
+  height: 70px;
+}
+.violet {
+  background-color: #8E44AD;
+  float: left;
+}
+.yellow {
+  background-color: #F1C40F;
+}
+.green {
+  background-color: #2ECC71;
+  width: 145px;
+  height: 70px;
+  float: left;
+}
+.red1 {
+  float: right;
+}
+.red2 {
+  float: left;
+}
+.red1,.red2 {
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+}
+.blue1 {
+  width: 70px;
+  height: 220px;
+  background-color: #3498DB;
+}
+.blue2 {
+  width: 220px;
+  height: 70px;
+  background-color: #3498DB;
+}
