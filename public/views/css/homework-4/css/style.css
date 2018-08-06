@@ -80,6 +80,7 @@ footer {
 .row {
   margin: 0 -15px;
   font-size: 16px;
+  padding-bottom: 20px;
 }
 .row:after {
   content: "";
@@ -128,10 +129,13 @@ footer {
 .button-info {
   color: green;
 }
-.button-load {
+.load {
   background-color: green;
   color: white;
   font-size: 16px;
+}
+.button-load {
+  text-align: center;
 }
 .p-card {
   margin: 20px 0;
@@ -141,6 +145,12 @@ h2 {
   font-size: 20px;
   color: #a09f9f;
 }
+.sunset {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  padding: 220px 15px;
+}
 .background-3 {
     height: 250px;
     background-image: url(../images/everest.jpg);
@@ -149,4 +159,36 @@ h2 {
     color: black;
     background-position: center center;
 }
+.footer {
+  background-color: #272626;
 
+}
+.row-footer {
+  margin: 0 -15px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.row-footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column-footer {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+}
+.card-footer {
+  margin-bottom: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.content-footer {
+  font-size: 0;
+  padding: 50px 100px;
+}
+.footer-link {
+  color: white;
+  margin-bottom: 20px;
+}
