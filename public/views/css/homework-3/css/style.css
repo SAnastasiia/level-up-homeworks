@@ -100,6 +100,7 @@ h2 {
 .favourite {
   position: absolute;
   margin: 10px;
+  z-index: 1;
 }
 
 .info {
@@ -113,7 +114,8 @@ p {
 }
 
 .images {
-  width: 100%
+  width: 100%;
+  position: relative;
 }
 
 .button-card {
