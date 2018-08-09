@@ -36,15 +36,23 @@ footer {
 * {
   box-sizing: border-box;
 }
-header {
+.header {
   background-color: green;
   line-height: 60px;
+}
+body {
+  background-image: url('../images/pattern.png');
 }
 a {
   display: inline-block;
 }
 .container {
-  padding: 0 90px;
+  width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+.content {
+  padding-bottom: 15px;
 }
 .menu {
   text-transform: uppercase;
@@ -60,7 +68,7 @@ a {
   margin-right: 0;
 }
 .link-active {
-  border-bottom: 2px solid yellow;
+  border-color: yellow;
 }
 .link-menu:active {
   border-bottom: 2px solid yellow;
@@ -75,15 +83,11 @@ a {
 .link-autorisation:last-child {
   margin-right: 0;
 }
-.content-background {
-  background-image: url('../images/pattern.png');
-}
 .intro-text {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
+  line-height: 630px;
+  text-align: center;
   color: white;
-  font-size: 4rem;
+  font-size: 80px;
   font-weight: bold;
 }
 .intro {
@@ -127,8 +131,8 @@ a {
     background-image: url(../images/everest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
-    background-position: center center;
+/*    color: black;
+*/    background-position: center center;
     position: relative;
 }
 h2 {
@@ -158,26 +162,36 @@ border-radius: 3px;
 .card-buttons:last-child {
   padding-right: 0;
 }
+.buttons {
+  padding-top: 10px;
+  margin: auto;
+  vertical-align: top;
+
+}
 .button {
   text-transform: uppercase;
-  padding: 10px;
   color: green;
 }
 .load {
   background-color: green;
   color: white;
   font-size: 16px;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 2px;
+
 }
 .button-load {
   text-align: center;
-  margin-bottom: 15px;
-}
+/*  margin-bottom: 15px;
+*/}
 .footer {
    background-color: #272626;
+   padding: 40px 0;
 }
 .footer-nav {
-  padding: 40px 0;
-}
+/*  padding: 40px 0;
+*/}
 .footer-link {
   color: white;
   margin-bottom: 15px;
