@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>HW-5</title>
     <style>
@@ -10,52 +11,209 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header__footer">
+      <header class="header">
         <p>Header</p>
       </header>
       <div class="content">
+       <div class="container">
         <div class="row">
-          <aside class="column">
+          <aside class="column col-start-3 col-mb-12 col-md-3 col-sm-12 col-12 col-lg-3">
             <div class="filter">
               <form>
-                <div class="filter__section">
-                   <p class="filter__title">Just a sidebar</p> 
-                   <div class="filter__checkbox">
-                      <label for="puma">Puma</label>
-                      <input id="puma" class="input__filter" type="checkbox" name="brand" value="0">
-
-                   </div>
-                </div>
-              </form>
+                  <div class="filter__section">
+                    <p class="filter__title">Brand</p>
+                    <div class="filter__checkbox">
+                      <input id="puma" class="input-hidden" type="checkbox" name="brand" value="0" />
+                      <label class="checkbox" for="puma">Adidas</label>
+                    </div>
+                    <div class="filter__checkbox">
+                      <input id="adidas" class="input-hidden" type="checkbox" name="brand" value="1" />
+                      <label class="checkbox" for="adidas">Puma</label>
+                    </div>
+                    <div class="filter__checkbox">
+                      <input id="reebok" class="input-hidden" type="checkbox" name="brand" value="2" />
+                      <label class="checkbox" for="reebok">Reebok</label>
+                    </div>
+                  </div>
+                </form>
             </div>
           </aside>
-          <div class="column">
-            <div class="card">
-              <div class="card__photo">
-                <h1 class="card__title">
-                  Everest sunset
-                </h1>
-              </div>
-              <div class="card__content">
-                <h2 class="card__desk">Mountains</h2>
-                <span class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
-                </span>
-                <div class="card__buttons">
-                  <div>
-                    <button class="button button--size_default" type="button">Share</button>
-                  </div>
-                  <div>
-                    <a class="card__button" href="#">Explore</a>
+          <div class="column col-start-9 col-mb-12 col-md-9 col-sm-12 col-12 col-lg-9">
+              <div class="row">
+              <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-start-4 col-mb-6 col-sm-4 col-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="card__photo">
+                      <h1 class="card__title">
+                      Everest sunset
+                      </h1>
+                    </div>
+                    <div class="card__content">
+                      <h2 class="card__desk">Mountains</h2>
+                      <span class="card__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempore enim, commodi, ipsa quo rerum nam error repellat laborum ipsum quas voluptate.
+                      </span>
+                      <div class="card__buttons">
+                        <div>
+                          <button class="button button--size_default" type="button">Share</button>
+                          <a class="button button--size_default" href="#">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
             </div>
           </div>
-        </div>
-        
+        </div> 
       </div>
-      <footer class="header__footer">
+      <footer class="footer">
         <p>Footer</p>
       </footer>
     </div>
