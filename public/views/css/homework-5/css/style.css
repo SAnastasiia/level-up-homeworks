@@ -26,20 +26,16 @@ body {
 footer, .footer {
   flex-shrink: 0;
 }
-
 /* Unknown props */
 /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); - filter */
 /* transform: rotateZ(45deg); - checkbox */
 /* border-radius: 3px; - card rounding */
-
 /* Your styles go below */
-/** {
-  box-sizing: border-box;
-}*/
 a {
   text-decoration: none;
+  display: inline-block;
 }
-.header, .footer{
+.header, .footer {
   background-color: #464694;
   color: white;
   text-transform: uppercase;
@@ -47,8 +43,7 @@ a {
   padding: 10px 0;
 }
 .content {
-/*  width: 1170px;
-*/  padding: 15px;
+  padding: 15px 0;
 }
 .card {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -75,7 +70,7 @@ a {
 .card__content {
   padding: 20px 15px;
 }
-.card__desk {
+.card__sub-title {
   color: grey;
   font-size: 20px;
 }
@@ -84,24 +79,19 @@ a {
   padding: 15px 0;
 }
 .button {
-padding: 10px 0;
-margin-right: 15px;
+padding-right: 10px;
 color: green;
 text-transform: uppercase;
 background-color: transparent;
-border-radius: 3px;
 }
 .card__buttons {
   margin: auto;
-  vertical-align: top;
 }
-.button:last-child {
-  margin-right: 0;
+.button--size_default {
+  line-height: 30px;
 }
-
 .container {
   margin: 0 auto;
-  /*width: 100%;*/
   padding: 0 15px;
 }
 .row {
@@ -116,22 +106,8 @@ border-radius: 3px;
   font-size: 1rem;
   float: left;
   padding: 0 15px;
+  width: 100%;
 }
-/*@media(min-width: 554px) {
-  .container {
-    width: 500px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    width: 980px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    width: 1250px;
-  }
-}*/
 .col-start-12 {
   width: 100%;
 }
@@ -167,44 +143,6 @@ border-radius: 3px;
 }
 .col-start-1 {
   width: 8.33333%;
-}
-@media (min-width: 320px) {
-.col-1 {
-    width: 8.3333%;
-  }
-  .col-2 {
-    width: 16.6666%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.3333%;
-  }
-  .col-5 {
-    width: 41.6666%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.3333%;
-  }
-  .col-8 {
-    width: 66.6666%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.3333%;
-  }
-  .col-11 {
-    width: 91.6666%;
-  }
-  .col-12 {
-    width: 100%;
-  }
 }
 @media (min-width: 544px) {
   .col-mb-1 {
@@ -358,12 +296,12 @@ border-radius: 3px;
     width: 100%;
   }
 }
-
 .filter {
   margin-bottom: 32px;
   padding: 16px;
   background-color: #ddd;
   font-size: 1rem;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 .filter__section {
   margin-bottom: 16px;
@@ -375,11 +313,9 @@ border-radius: 3px;
 .filter__checkbox {
   padding-bottom: 12px;
 }
-
 .input-hidden {
   display: none;
 }
-
 .checkbox {
   display: block;
   padding-left: 24px;
@@ -398,6 +334,10 @@ border-radius: 3px;
   top: 50%;
   left: 0;
 }
+input:checked + .checkbox:before {
+  background-color: blue;
+  border: none;
+}
 input:checked + .checkbox:after {
   content: "";
   border-right: 2px solid #000;
@@ -409,4 +349,3 @@ input:checked + .checkbox:after {
   left: 7px;
   transform: rotateZ(45deg);
 }
-

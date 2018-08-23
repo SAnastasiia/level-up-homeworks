@@ -41,7 +41,7 @@ footer {
   line-height: 60px;
 }
 body {
-  background-image: url('../images/pattern.png');
+  background-image: url("../images/pattern.png");
 }
 a {
   display: inline-block;
@@ -134,13 +134,12 @@ nav:after {
   border-radius: 3px;
 }
 .card-photo {
-    height: 250px;
-    background-image: url(../images/everest.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-/*    color: black;
-*/    background-position: center center;
-    position: relative;
+  height: 250px;
+  background-image: url(../images/everest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
 h2 {
   position: absolute;
