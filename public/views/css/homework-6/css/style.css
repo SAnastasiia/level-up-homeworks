@@ -24,21 +24,17 @@ body {
 .box {
   box-shadow: 2px 0px 22px 6px rgba(0, 0, 0, 0.15);
   display: table;
-  padding: 0 15px;
+  border:1px solid rgba(130, 120, 120, 0.5);
+  border-bottom: none;
 }
 .box__line {
   display: table-row;
-  border: 4px solid grey;
-}
-.border {
-  border:1px solid grey;
 }
 .sprite__box {
-   background-image: url(SVG-icons.png);
+  background-image: url(SVG-icons.png);
   background-repeat: no-repeat;
   height: 40px;
   width: 40px;
-  margin-right: 10px;
   position: relative;
 }
 .sprite__box-smile {
@@ -53,13 +49,20 @@ body {
 .text, .status, .sprite {
   display: table-cell;
   vertical-align: middle;
+  border-bottom: 1px solid rgba(130, 120, 120, 0.5);
+  padding: 15px;
+}
+.border:last-child>* {
+  border-bottom: none;
 }
 .status {
   text-align: right;
+  padding-right: 15px;
 }
 .status__info {
   color: white;
   padding: 10px;
+  border-radius: 5px;
 }
 .status__info--approved {
   background-color: green;
@@ -70,6 +73,10 @@ body {
 .status__info--error {
   background-color: red;
 }
-.status, .text {
-  padding: 20px 0;
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 auto;
 }
