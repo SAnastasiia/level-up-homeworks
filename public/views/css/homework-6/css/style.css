@@ -8,7 +8,7 @@ html {
 body {
   height: 100%;
   color: #444;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .wrapper {
   display: flex;
@@ -82,7 +82,15 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: red;
+  background-image: radial-gradient(red, rgb(198, 143, 260), white);
+  background-size: 3px 3px;
   margin: 0 auto;
+  box-shadow: 
+    inset 0px 25px 2px rgba(45, 210, 47, 0.7), 
+    inset -25px 0px 2px rgba(206, 51, 220, 0.7),
+    inset 0px -25px 2px rgba(133, 12, 195, 0.7), 
+    inset 25px 0px 2px rgba(104, 247, 171, 0.7), 
+    inset -25px -25px 2px rgba(230, 22, 80, 0.7),
+    inset 25px 25px 2px rgba(160, 162, 23, 0.7),
+    inset -25px -25px 2px rgba(230, 22, 80, 0.7);
 }
-
