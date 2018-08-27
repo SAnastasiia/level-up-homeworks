@@ -44,11 +44,10 @@ body {
   background-position: -110px -75px;
 }
 .sprite__box-error {
-  background-position: 0px -150px;
+  background-position: 0 -150px;
 }
 .text, .status, .sprite {
   display: table-cell;
-  vertical-align: middle;
   border-bottom: 1px solid rgba(130, 120, 120, 0.5);
   padding: 15px;
 }
@@ -58,6 +57,12 @@ body {
 .status {
   text-align: right;
   padding-right: 15px;
+  vertical-align: top;
+  padding-top: 24px;
+}
+.text {
+  vertical-align: middle;
+  text-align: justify;
 }
 .status__info {
   color: white;
@@ -80,3 +85,4 @@ body {
   background-color: red;
   margin: 0 auto;
 }
+
