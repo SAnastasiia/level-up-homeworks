@@ -46,11 +46,8 @@ body {
 a {
   display: inline-block;
 }
-nav {
-/*  overflow: hidden;
-*/}
 nav:after {
-  content: '';
+  content: "";
   display: block;
   clear: both
 }
@@ -70,7 +67,6 @@ nav:after {
 .link-menu{
   margin-right: 10px;
   border-bottom:2px solid rgba(0,0,0,0);
-
 }
 .link-menu:last-child {
   margin-right: 0;
@@ -99,7 +95,7 @@ nav:after {
   font-weight: bold;
 }
 .intro {
-  background-image: url('../images/intro.jpg');
+  background-image: url("../images/intro.jpg");
   height: 630px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -135,7 +131,7 @@ nav:after {
 }
 .card-photo {
   height: 250px;
-  background-image: url(../images/everest.jpg);
+  background-image: url("../images/everest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -157,20 +153,18 @@ h3 {
 .card-text {
   padding: 15px 0;
 }
-
 .button {
-padding-right: 15px;
-color: green;
-text-transform: uppercase;
-background-color: transparent;
-border-radius: 3px;
+  padding-right: 15px;
+  color: green;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 3px;
 }
 .card-buttons:last-child {
   padding-right: 0;
 }
 .buttons {
   padding-top: 10px;
-  margin: auto;
 }
 .button {
   text-transform: uppercase;
@@ -183,27 +177,16 @@ border-radius: 3px;
   text-align: center;
   padding: 10px 5px;
   border-radius: 2px;
-
 }
 .button-load {
   text-align: center;
-/*  margin-bottom: 15px;
-*/}
-.footer {
-   background-color: #272626;
-   padding: 40px 0;
 }
-.footer-nav {
-/*  padding: 40px 0;
-*/}
+.footer {
+  background-color: #272626;
+  padding: 40px 0;
+}
 .footer-link {
   color: white;
   margin-bottom: 15px;
   font-size: 16px;
 }
-
-
-
-
-
-
