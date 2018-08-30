@@ -16,66 +16,65 @@ body {
   min-height: 100%;
 }
 .content {
+  height: 100%;
   flex: 1 0 auto;
 }
 .main {
   padding: 100px 50px;
+
 }
 .box {
   box-shadow: 2px 0px 22px 6px rgba(0, 0, 0, 0.15);
-  display: table;
   border:1px solid rgba(130, 120, 120, 0.5);
   border-bottom: none;
 }
 .box__line {
-  display: table-row;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid rgba(130, 120, 120, 0.5);
 }
-.sprite__box {
+.box__cell {
+  display: table-cell;
+  padding: 15px;
+  vertical-align: middle;
+}
+.box__cell--align {
+  vertical-align: baseline;
+}
+.box__cell--size {
+  width: 36px;
+}
+.sprite {
   background-image: url(SVG-icons.png);
   background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   position: relative;
 }
-.sprite__box-smile {
-  background-position: -110px -36px;
+.sprite--position-smile {
+  background-position: -112px -40px;
 }
-.sprite__box-edition {
+.sprite--position-edition{
   background-position: -110px -75px;
 }
-.sprite__box-error {
+.sprite--position-error {
   background-position: 0 -150px;
-}
-.text, .status, .sprite {
-  display: table-cell;
-  border-bottom: 1px solid rgba(130, 120, 120, 0.5);
-  padding: 15px;
-}
-.border:last-child>* {
-  border-bottom: none;
 }
 .status {
   text-align: right;
-  padding-right: 15px;
-  vertical-align: top;
-  padding-top: 24px;
 }
-.text {
-  vertical-align: middle;
-  text-align: justify;
-}
-.status__info {
+.status__text {
   color: white;
   padding: 10px;
   border-radius: 5px;
 }
-.status__info--approved {
-  background-color: green;
-}
-.status__info--pending {
+.status__text--bcg-edit {
   background-color: orange;
 }
-.status__info--error {
+.status__text--bcg-approved {
+  background-color: green;
+}
+.status__text--bcg-error {
   background-color: red;
 }
 .circle {
