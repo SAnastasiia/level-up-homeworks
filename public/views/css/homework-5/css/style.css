@@ -80,6 +80,10 @@ a {
 }
 .card__button {
   display: inline-block;
+  margin-right: 7px;
+}
+.card__button:last-child {
+  margin-right: 0;
 }
 .button {
   padding: 0 10px;
