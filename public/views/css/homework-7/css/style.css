@@ -19,16 +19,14 @@
   align-items: center;
   position: relative;
 }
-.preloader__counter {
+.preloader__inner:before {
+  content: "1";
   color: #fff;
   font-weight: bold;
   font-size: 100px;
   text-align: center;
   width: 100px;
   height: 100px;
-}
-.preloader__counter:before {
-  content: "1";
   text-align: center;
   animation: counter 10s step-end infinite;
 }
