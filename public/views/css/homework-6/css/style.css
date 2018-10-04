@@ -38,7 +38,7 @@ body {
   padding: 15px;
   vertical-align: middle;
 }
-.box__cell--align {
+.box__cell--position {
   vertical-align: baseline;
 }
 .box__cell--size {
@@ -60,13 +60,15 @@ body {
 .sprite--position-error {
   background-position: 0 -150px;
 }
-.status {
+/*.status {
   text-align: right;
-}
+}*/
 .status__text {
   color: white;
   padding: 10px;
   border-radius: 5px;
+  text-align: right;
+  display: none;
 }
 .status__text--bcg-edit {
   background-color: orange;

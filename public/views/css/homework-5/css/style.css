@@ -81,6 +81,7 @@ a {
 .card__button {
   display: inline-block;
   margin-right: 7px;
+  font-size: 0;
 }
 .card__button:last-child {
   margin-right: 0;
@@ -90,6 +91,7 @@ a {
   color: green;
   text-transform: uppercase;
   background-color: transparent;
+  font-size: 16px;
 }
 .button--size_default {
   line-height: 30px;
