@@ -1,4 +1,5 @@
 'use strict'
+
 var a = 1, b = 1, c, d;
 
 c = ++a; console.log(c); // 2   the prefix form first of all will increase 'a' to 2, and then return 'a'

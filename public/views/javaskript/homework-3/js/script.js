@@ -1,4 +1,5 @@
 'use strict'
+
 //1 Выведется ли alert?
 
 if ("0") {
