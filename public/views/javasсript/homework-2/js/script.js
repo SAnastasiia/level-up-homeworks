@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var a = 1, b = 1, c, d;
 
@@ -34,8 +34,8 @@ var b = 4;
 var c = (b += 5) - a++ * b - 3 + (b -= 3 + 1 - --a);
 console.log(c);
 console.log(b);
-//1) b=b+5  b=9
-//2) a++ ->  keep in mind
-//3) a*b =2*9=18
-//4) b = 9-(3+1-2);
+//1) b=b+5  b=9 we've used combined addition operator
+//2) a++ -> the postfix form first returns old values and we need to keep in mind new values
+//3) a*b =2*9=18 multiply operator with two variables
+//4) b = 9-(3+1-2); First we've used combined subtraction operator and than used the prefix form of decrement operator for "a" and made an arithmetic(plus and minus) operations
 //5) 9-18-3+7=-5
