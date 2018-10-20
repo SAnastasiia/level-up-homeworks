@@ -6,10 +6,10 @@ name = 'Vasiliy';
 admin = name;
 console.log(admin);
 
-var ourPlanet = 'Earth';
+var ourPlanetName = 'Earth';
 var userName = 'Petya';
 
-var fps; //frames per second
-var wordsSeparator;  //signBetweenWords
-var viewMode; //documentViewMode
+var fps;
+var wordsSeparator;
+var documentViewMode;
 var lastPageVisible;
