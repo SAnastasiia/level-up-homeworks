@@ -98,7 +98,7 @@ alert( 1 && null && 2 );
 // 10 Что выведет код ниже?
 
 alert( null || 2 && 3 || 4 );
-//result will be 3. because of prioritet firs was made (2 && 3)- the operator "and" checks the operands to the first "false" and returns it, and if all true - the last value, thaen we checked operators "or" and first true value was "3"
+//result will be 3. because of priority : firs was made (2 && 3)- the operator "and" checks the operands to the first "false" and returns it, and if all true - the last value, thaen we checked operators "or" and first true value was "3"
 
 /* 11 Напишите условие if для проверки того факта, что переменная age находится между 14 и 90 включительно.
 
@@ -126,8 +126,8 @@ if (null || -1 && 1) alert( 'третье' ); //will be executed, because -1 && 
 
 // 14 Подумайте, какой результат будет у выражений ниже.
 
-"" + 1 + 0   // '10'
-"" - 1 + 0   // -1 -number
+"" + 1 + 0   // -> string '10'. String plus number is a concatenation, the result string plus number is concatenation too.
+"" - 1 + 0   // -1 -number  
 true + false // 1+0=1 number
 6 / "3"  // 2 number
 "2" * "3" // 6 number
